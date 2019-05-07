@@ -1,0 +1,25 @@
+{
+    "type": "object",
+    "properties": {
+        "Range": {
+            "required": false,
+            "type": "string"
+        },
+        "feed_scope": {
+            "required": true,
+            "type": "string"
+        },
+        "category_id": {
+            "required": true,
+            "type": "string"
+        },
+        "date": {
+            "required": false,
+            "type": "string"
+        },
+        "X_EBAY_C_MARKETPLACE_ID": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}
